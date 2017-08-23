@@ -12,3 +12,9 @@ class FlibustaStore(StoreBase):
     name = 'Флибуста'
     description = _('Книжное братство')
     actual_plugin = 'calibre_plugins.store_flibusta.flibusta:FlibustaStore'
+    author = 'Anri Engelhardt'
+
+    drm_free_only = True
+    headquarters = 'RU'
+    formats = ['EPUB', 'TXT', 'RTF', 'HTML', 'FB2', 'PDF', 'MOBI']
+    affiliate = False
