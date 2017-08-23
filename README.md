@@ -11,3 +11,4 @@ Go to:
   
 Choose downloaded plugin zip archive.
   
+You need to use OpenNIC DNS servers to access flibusta through thiss plugin
