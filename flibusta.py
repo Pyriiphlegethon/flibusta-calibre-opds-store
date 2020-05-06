@@ -12,12 +12,12 @@ from calibre.gui2.store.search_result import SearchResult
 
 class FlibustaStore(BasicStoreConfig, OpenSearchOPDSStore):
 
-    open_search_url = 'http://flib.nwalkr.tk/opds-opensearch.xml'
-    web_url = 'http://flib.nwalkr.tk/'
+    open_search_url = 'https://flibusta.appspot.com/opds-opensearch.xml'
+    web_url = 'https://flibusta.appspot.com/'
 
     def search(self, query, max_results=10, timeout=60):
         for s in OpenSearchOPDSStore.search(self, query, max_results, timeout):
-            s.detail_item = 'http://flib.nwalkr.tk/b/'+ s.detail_item.split(':')[-1]
+            s.detail_item = 'https://flibusta.appspot.com/b/'+ s.detail_item.split(':')[-1]
             s.price = '$0.00'
             s.drm = SearchResult.DRM_UNLOCKED
             yield s
