@@ -13,7 +13,7 @@
 
 ## Установка:
 
-Скачайте плагин [отсюда](https://github.com/Zypresse/flibusta-calibre-opds-store/releases/tag/v1.0)
+Скачайте плагин [отсюда](https://github.com/Pyriiphlegethon/flibusta-calibre-opds-store/releases/tag/v2.0)
 
 Перейдите в: 
 
@@ -24,7 +24,7 @@
 ## Использование
 
 1. После установки перезапустите Calibre
-2. Перейдите в "Получить книги" и выберите магазин "Флибуста"
+2. Перейдите в "Приобрести книги" и выберите магазин "Флибуста"
 3. Ищите книги, используя русские или английские термины
 4. Скачивайте книги напрямую в вашу библиотеку Calibre
 
@@ -35,7 +35,7 @@
 - Правильно обрабатывает кодировку кириллицы
 - Совместим с современными версиями Calibre (3.0+)
 
-## Изменения в v1.1
+## Изменения в v2.0
 
 - Обновлено для использования домена flibusta.is вместо flibusta.appspot.com
 - Улучшен парсинг OPDS-каналов
@@ -81,7 +81,7 @@ Choose downloaded plugin zip archive.
 - Handles Cyrillic text encoding properly
 - Compatible with modern Calibre versions (3.0+)
 
-## Changes in v1.1
+## Changes in v2.0
 
 - Updated to use flibusta.is domain instead of flibusta.appspot.com
 - Improved OPDS feed parsing
